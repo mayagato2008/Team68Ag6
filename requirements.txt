@@ -1,5 +1,6 @@
 streamlit==0.64.0
 pandas
+pandas-profilling
 wordcloud
 matplotlib
 geopandas
