@@ -1,5 +1,7 @@
 import pandas as pd
 import os
+import codecs
+import base64
 import matplotlib.pyplot as plt
 import nltk
 import re
