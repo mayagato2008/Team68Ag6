@@ -32,7 +32,7 @@ import sweetviz as sv
 
 #Customer paks
 from modulos import wsTeam68
-# from modulos import mapa_news
+from modulos import mapa_news
 from modulos import prepare_text
 from modulos import clasif_cat_even
 from modulos import ModuloModRegionCLF
@@ -228,11 +228,11 @@ def main():
 
 	elif choice == "Heatmap":
 		st.info("Mapa de hechos victimizantes")
-#		data=mapa_news.mapa()
-#		gdfCOL = geopandas.read_file('./Data/COL_adm/COL_adm0.shp')
-#		gdfCOL.plot()
-#		plt.scatter(data['longitude'],data['latitude'],color='purple')
-#		st.pyplot()
+		data=mapa_news.mapa()
+		gdfCOL = geopandas.read_file('./Data/COL_adm/COL_adm0.shp')
+		gdfCOL.plot()
+		plt.scatter(data['longitude'],data['latitude'],color='purple')
+		st.pyplot()
 
 	elif choice == "About":
 		st.info("About App")
