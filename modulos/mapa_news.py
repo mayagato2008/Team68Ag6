@@ -47,7 +47,7 @@ newsvic["CAT_EVENTO"] = newsvic["CAT_EVENTO"].astype('category')
 newsvic["TIP_EVEN"] = newsvic["TIP_EVEN"].astype('category')
 
 with open('./Data/COOR_MUN1.csv') as f:
-    COOR_MUN=pd.read_csv(f, delimiter=',')
+    COOR_MUN=pd.read_csv(f, delimiter=',', encoding='latin-1')
 newsvic = pd.merge(newsvic,COOR_MUN, on='CODMUN')
 
 
