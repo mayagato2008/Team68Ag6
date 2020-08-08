@@ -17,9 +17,9 @@ import pickle
 from pandas_profiling import ProfileReport
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
-import geopandas
-from shapely.geometry import LineString
-from descartes import PolygonPatch
+#import geopandas
+#from shapely.geometry import LineString
+#from descartes import PolygonPatch
 from streamlit_folium import folium_static
 import folium
 
@@ -228,11 +228,11 @@ def main():
 
 	elif choice == "Heatmap":
 		st.info("Mapa de hechos victimizantes")
-		data=mapa_news.mapa()
-		gdfCOL = geopandas.read_file('./Data/COL_adm/COL_adm0.shp')
-		gdfCOL.plot()
-		plt.scatter(data['longitude'],data['latitude'],color='purple')
-		st.pyplot()
+#		data=mapa_news.mapa()
+#		gdfCOL = geopandas.read_file('./Data/COL_adm/COL_adm0.shp')
+#		gdfCOL.plot()
+#		plt.scatter(data['longitude'],data['latitude'],color='purple')
+#		st.pyplot()
 
 	elif choice == "About":
 		st.info("About App")
