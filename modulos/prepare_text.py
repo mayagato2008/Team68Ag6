@@ -7,7 +7,7 @@ nltk.download('stopwords')
 #from spacy.lang.es.stop_words import STOP_WORDS
 import re
 from unicodedata import normalize
-import es_core_news_sm
+#import es_core_news_sm
 
 #def is_nan(x):
 #    return (x is np.nan or x != x)
