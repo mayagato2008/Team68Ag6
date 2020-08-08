@@ -2,7 +2,6 @@ streamlit==0.64.0
 pandas
 wordcloud
 matplotlib
-geopandas
 shapely
 descartes
 streamlit_folium
