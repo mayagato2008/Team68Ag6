@@ -32,7 +32,7 @@ import sweetviz as sv
 
 #Customer paks
 from modulos import wsTeam68
-from modulos import mapa_news
+#from modulos import mapa_news
 from modulos import prepare_text
 from modulos import clasif_cat_even
 from modulos import ModuloModRegionCLF
